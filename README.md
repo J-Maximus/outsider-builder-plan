@@ -22,4 +22,4 @@ Corrections are welcome as issues using the template, and so are pointers to res
 
 [`PLAN.md`](PLAN.md) · [`TEMPLATE.md`](TEMPLATE.md) · [`EXAMPLE.md`](EXAMPLE.md) · [`SOURCES.md`](SOURCES.md) · [`CHANGELOG.md`](CHANGELOG.md)
 
-Author: Jonas Leddington — maximus.work — https://leddington.substack.com/
+Author: Jonas Leddington — maximus.work — https://leddington.substack.com/ — the article this accompanies: https://leddington.substack.com/p/a-study-plan-for-outsider-builders
