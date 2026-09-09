@@ -74,7 +74,7 @@ The guide's five rows, as written, plus none of my own yet. The one I'd add afte
 
 | Phase | Weeks | Hours/week | Sources | Exit criterion (checkable by someone who isn't me or my agent) |
 |---|---|---|---|---|
-| Hygiene day — dependency audit, secret scan, SAST, RLS and cloud-config review, restore drill, all dated | this week | one day | the tools' own docs; OWASP ASVS L1 for checklist language | five numbers and a restore time in the incidents log |
+| Hygiene day — dependency audit, secret scan, SAST, RLS and cloud-config review, restore drill, all dated | **done 2026-09-09** | one day | the tools' own docs; OWASP ASVS L1 for checklist language | five numbers and a restore time in the incidents log |
 | Evals — 30 traces by hand, then ~100 labels, binary, split; validate the extraction judge on the held-out set; set the weekly cadence | Sept | ~4 | Husain FAQ + Field Guide; Shankar, *Who Validates the Validators?*; Huyen ch. 3–4 | one judge with TPR/TNR and the interval stated on held-out data; three consecutive weeks of 10–20 traces reviewed |
 | Security and the stranger gate — threat model in OWASP/ASVS vocabulary; the deletion path, built and proven against a restore, as the learning project; vendor retention and DPAs; the regulatory sentence from counsel, dated; breach playbook; white-box pentest with examined-and-clean list; scanning stays on every build | Oct–Nov, 8 | ~4 + build | OWASP LLM Top 10; ASVS; Huyen ch. 5; the database vendor's row-level-security docs; a short privacy-engineering text; counsel | stranger-gate checklist closed line by line with dates; pentest received, every P1 remediated; deletion path proven against a restore |
 | The machines — five build-failing fitness functions (dependency direction, complexity ceiling, duplication threshold, mutation floor, zero high/critical with a dated allowlist); read-only signals; canary suite on a pinned model, re-baselined on retirement | Nov–Dec, 6 | ~2 + build | Ford/Parsons/Kua ch. 2; Tornhill; DORA definitions | five functions failing CI on a deliberately broken branch; canary suite run twice, a month apart |
@@ -101,3 +101,4 @@ The guide's five rows, as written, plus none of my own yet. The one I'd add afte
 ## 9 · Change log
 
 - 2026-09-05 — v1. First assessment. Self-assessed; not yet corrected by an outside reviewer.
+- 2026-09-09 — Phase 1 (hygiene day) exit criterion met, on the week published here: five numbers and a restore time, dated, in the build's incidents log at a pinned commit. The restore drill measured 12 minutes to verified data.
