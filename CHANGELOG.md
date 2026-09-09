@@ -2,6 +2,10 @@
 
 Append-only. Newest at the top. This is the only changelog for this repository.
 
+## 2026-09-09
+
+- `EXAMPLE.md`: phase 1 (hygiene day) marked done, on the week the example published for it. The exit criterion — five numbers and a restore time, dated, in the build's incidents log — was met as written.
+
 ## v1.0 — 2026-09-05
 
 - Initial publication of the guide (`PLAN.md`), the template (`TEMPLATE.md`) and the author's example (`EXAMPLE.md`).
